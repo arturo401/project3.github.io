@@ -4,7 +4,9 @@ div {
     border: 5px solid #e9e6cf;
     border-radius: 20px;
     background-color:  #e9e6cf;
-  }
+      margin: 0 auto;
+    text-align: center;
+}
 
 .box2 {
     width: 40%;
@@ -14,7 +16,8 @@ div {
     background-color:  #e9994f;
     position: relative;
     top: -490px;
-  }
+    margin-top: 20px; 
+}
 
   .topLeft{
     width: 15%;
@@ -25,7 +28,7 @@ div {
     position: relative;
     top: -990px;
     left: -290px;
-
+    margin-top: 20px; 
   }
 
   .topRight{
@@ -49,5 +52,5 @@ div {
     background-color:    #69adec;
     position: relative;
     top: -650px;
-
+    margin-top: 20px; 
   }
