@@ -1,7 +1,7 @@
 
 // JavaScript for the number guessing game
 const targetNumber = Math.floor(Math.random() * 100) + 1;
-let score = 0;
+let score = 10;
 let highScore = 0;
 
 document.getElementById("checkButton").addEventListener("click", function() {
