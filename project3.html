@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="pro3.css">
-
+   
 
 </head>
 <body style="background-color: rgb(103, 226, 226);">
@@ -14,8 +14,8 @@
 <!-- Start of title -->
  <!-- Add fonts to the titles -->
 <center>
-<h1>GUESS MY NUMBER</h1>
-<p>Guess the number between 1 and 100</p>
+<h1 class="title"> GUESS MY NUMBER</h1>
+<p class="title" >Guess the number between 1 and 100</p>
 <!-- End of title -->
 
 
@@ -30,10 +30,12 @@
 
 <!-- Inside of middle box -->
 <div class="box2">
-<img src="" alt="PLACEHOLDER">
+<img src="20190801160523-GettyImages-507844038.jpeg" alt="PLACEHOLDER" width="60%">
 <br>
-<input type="text">
+<input type="text" placeholder="Guess a Number">
 <br>
+<br>
+<!-- <button class="buttonclick">Check</button> BUTTON DOES NOT WORK WITH CLASS-->
 <button>Check</button>
     <p>Guess a Number</p>
 </div>
@@ -52,19 +54,22 @@
 
 <!-- TOP RIGHT MENU -->
 <div class="topRight">
-<p>RESET</p>
+    <button type="submit" onClick="refreshPage()">RESET</button>
 </div>
 <!-- END OF RIGHT MENU -->
 
 
-
+<!-- HISTORY MENU -->
 <div class="historybottom">
 <p>GUESS HISTORY</p>
 </div>
+<!-- END OF HISTORY MENU -->
+
 
 </center>
 
 
-
+<script src="project3.js"></script>
 </body>
 </html>
+
