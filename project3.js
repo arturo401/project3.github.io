@@ -27,3 +27,9 @@ document.getElementById("resetButton").addEventListener("click", function() {
     score = 0;
     document.getElementById("score").textContent = score;
 });
+
+// RESET BUTTON WORKS
+function refreshPage(){
+    window.location.reload();
+} 
+
