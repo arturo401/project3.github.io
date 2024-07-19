@@ -1,12 +1,16 @@
+.title{
+  font-family: "Audiowide", sans-serif;
+  
+}
+
+
 div {
     width: 60%;
     height: 650px;
     border: 5px solid #e9e6cf;
     border-radius: 20px;
     background-color:  #e9e6cf;
-      margin: 0 auto;
-    text-align: center;
-}
+  }
 
 .box2 {
     width: 40%;
@@ -16,8 +20,16 @@ div {
     background-color:  #e9994f;
     position: relative;
     top: -490px;
-    margin-top: 20px; 
+  }
+
+
+.buttonclick{
+  border: 5px solid  #4aa83d;
+  background-color:  #4aa83d;
+  border-radius: 10px;
 }
+
+
 
   .topLeft{
     width: 15%;
@@ -28,7 +40,6 @@ div {
     position: relative;
     top: -990px;
     left: -290px;
-    margin-top: 20px; 
   }
 
   .topRight{
@@ -52,5 +63,6 @@ div {
     background-color:    #69adec;
     position: relative;
     top: -650px;
-    margin-top: 20px; 
+
   }
+
