@@ -32,11 +32,10 @@
 <div class="box2">
 <img src="20190801160523-GettyImages-507844038.jpeg" alt="PLACEHOLDER" width="60%">
 <br>
-<input type="text" placeholder="Guess a Number">
+<input type="text" placeholder="Guess a Number" required   pattern="[1,100]" style="width: 150px;" />
 <br>
 <br>
-<!-- <button class="buttonclick">Check</button> BUTTON DOES NOT WORK WITH CLASS-->
-<button>Check</button>
+<button class="checkbtn">Check</button>
     <p>Guess a Number</p>
 </div>
 <!-- End of middle box -->
@@ -45,8 +44,8 @@
 
 <!-- TOP LEFT MENU -->
 <div class="topLeft">
-<p>Score: <span class="NO ASSIGNED VALUE NOTE TO SELF"></span> </p>
-<p>High Score: <span class="NO ASSIGNED VALUE NOTE TO SELF"></span> </p>
+<p>Score: <span class="crrntscore">10</span> </p>
+<p>High Score: <span class="historysc">0</span> </p>
 </div>
 <!-- END OF TOP LEFT MENU -->
 
@@ -72,4 +71,3 @@
 <script src="project3.js"></script>
 </body>
 </html>
-
